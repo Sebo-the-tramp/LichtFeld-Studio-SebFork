@@ -28,6 +28,18 @@
 
 ---
 
+## Sponsors
+
+<div align="center">
+
+<a href="https://www.core11.eu/">
+  <img src="docs/media/core11_multi.svg" alt="Core 11" height="60">
+</a>
+
+</div>
+
+---
+
 ## Support LichtFeld Studio Development
 
 LichtFeld Studio is a free, open-source implementation of 3D Gaussian Splatting that pushes the boundaries of real-time rendering performance.
