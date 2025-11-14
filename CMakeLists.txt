@@ -131,7 +131,7 @@ else()
 endif()
 if(NVIDIA_SMI)
     execute_process(
-            COMMAND ${NVIDIA_SMI} --query-gpu=compute_cap --format=csv,noheader
+            COMMAND ${NVIDIA_SMI} --id 0 --query-gpu=compute_cap --format=csv,noheader
             OUTPUT_VARIABLE DETECTED_COMPUTE_CAP
             OUTPUT_STRIP_TRAILING_WHITESPACE
     )
